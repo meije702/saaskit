@@ -11,7 +11,7 @@ export default function Head({ title, description }: HeadProps) {
   return (
     <_Head>
       <title>{title ?? SITE_NAME}</title>
-      <link rel="icon" href="/favicon.ico" sizes="32x32" />
+      <link rel="icon" href="/favicon.png" sizes="32x32" />
       <meta name="description" content={description ?? SITE_DESCRIPTION} />
     </_Head>
   );
