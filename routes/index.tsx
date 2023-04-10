@@ -34,10 +34,10 @@ function Hero() {
   return (
     <div class="text-center px-8 py-16 max-w-7xl mx-auto text-white space-y-8 flex-1 flex flex-col justify-center mt-[-112px]">
       <h1 class="font-bold text-3xl md:text-7xl">
-        Your SaaS here.
+        Fieldgrader.
       </h1>
       <p class="text-xl">
-        Some details about your SaaS.
+        Create insight from your grading data.
       </p>
       <div class="flex justify-center gap-8 flex-wrap">
         <LinkButton href="/signup">Signup</LinkButton>
@@ -81,17 +81,17 @@ function FeaturesSection() {
   const features = [
     {
       icon: IconListDetails,
-      title: "First feature",
+      title: "Easy data entry",
       description: "A little description here.",
     },
     {
       icon: IconCheckbox,
-      title: "Second feature",
+      title: "Quick processing",
       description: "A little description here.",
     },
     {
       icon: IconPrompt,
-      title: "Third feature",
+      title: "Fast insights",
       description: "A little description here.",
     },
   ];
